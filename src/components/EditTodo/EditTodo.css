@@ -1,0 +1,45 @@
+.edit-form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 1.2em;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.edit-form > input{
+    height: 40px;
+    width: 250px;
+    padding: 1.2em;
+    outline: none;
+    background-color: rgb(228, 228, 183);
+    border: 2px solid white;
+    color: #59473f;
+    border-radius: 10px;
+}
+
+.edit-form > .update{
+    width: 80px;
+    height: 30px;
+    padding: 7px;
+    background-color: rgb(90, 148, 106);
+    color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.edit-form > .delete{
+    width: 80px;
+    height: 30px;
+    padding: 7px;
+    background-color: rgb(138, 80, 80);
+    color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 700;
+}

@@ -1,0 +1,13 @@
+.App{
+  display: flex;
+  border: black;
+  width: 400px;
+  height: 600px;
+  flex-direction: column;
+  padding: 1.2em;
+  border-radius: 10px;
+  background-color: rgb(63, 62, 62);
+  align-items: center;
+  color: white;
+  box-shadow: 5px 6px rgb(54, 54, 54);
+}
